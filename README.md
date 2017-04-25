@@ -1,6 +1,6 @@
 # npmtest-next-tick
 
-#### test coverage for  [next-tick (v1.0.0)](https://github.com/medikoo/next-tick#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-next-tick.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-next-tick) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-next-tick.svg)](https://travis-ci.org/npmtest/node-npmtest-next-tick)
+#### basic test coverage for  [next-tick (v1.0.0)](https://github.com/medikoo/next-tick#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-next-tick.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-next-tick) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-next-tick.svg)](https://travis-ci.org/npmtest/node-npmtest-next-tick)
 
 #### Environment agnostic nextTick polyfill
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-next-tick/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-next-tick/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-next-tick/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-next-tick/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-next-tick/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-next-tick/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-next-tick/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-next-tick/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-next-tick/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-next-tick/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-next-tick/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-next-tick/build/coverage.html/index.html)
 
@@ -79,7 +79,8 @@
         "lint-console": "node node_modules/xlint/bin/xlint --linter=node_modules/xlint-jslint-medikoo/index.js --watch",
         "test": "node node_modules/tad/bin/tad"
     },
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "bin": {}
 }
 ```
 
